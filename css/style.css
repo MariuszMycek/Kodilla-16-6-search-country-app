@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700");
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background: #dff9fb;
+}
+
+button {
+  border-radius: 5px;
+  background: #95afc0;
+  outline: none;
+  border: 1px solid #95afc0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #afc2cf;
+}
+
+input {
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid #95afc0;
+}
+
+input:focus {
+  box-shadow: 0 0 0 1px #95afc0;
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 768px;
+  margin: 50px auto;
+}
+
+.country-card {
+  background: #c7ecee;
+  margin-top: 20px;
+  border: 1px solid #95afc0;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px #535c68;
+}
+
+.country-card__card-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.country-header__country-flag {
+  width: 30%;
+  height: 80px;
+}
+
+.country-header__country-flag img {
+  height: 100%;
+  box-shadow: 2px 2px 15px #535c68;
+}
+
+.country-header__country-name {
+  width: 70%;
+  font-size: 35px;
+  padding-left: 10px;
+  line-height: 40px;
+}
+
+.country-card__card-body {
+  border: 1px solid #95afc0;
+  margin: 10px 0;
+}
+
+.card-body__body-header {
+  background: #f6e58d;
+  padding: 10px;
+}
+
+.position-wrapper {
+  background: #d3f0f2;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10px;
+  border-top: 1px solid #95afc0;
+}
+
+.card-body__position-title {
+  width: 30%;
+  border-right: 1px solid #95afc0;
+  padding: 10px 0;
+}
+
+.card-body__position-description {
+  padding: 10px 10px;
+}
