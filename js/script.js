@@ -6,7 +6,14 @@ var countriesList = document.getElementById("countries");
 // Event listener for search button
 document.getElementById("search").addEventListener("click", searchCountries);
 
-// Function fetch countries data 
+// Search after Enter button click if input field is focused
+document.querySelector("#country-name").addEventListener("keyup", function(e) {
+  if (e.keyCode == 13) {
+    searchCountries();
+  }
+});
+
+// Function fetch countries data
 function searchCountries() {
   var countryName = document.getElementById("country-name").value;
   if (!countryName.length) countryName = "Poland"; // default country if nothing typed
