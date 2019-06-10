@@ -1,1 +1,1 @@
-https://mariuszmycek.github.io/Kodilla-16-6/
+https://mariuszmycek.github.io/Kodilla-16-6-search-country-app/
